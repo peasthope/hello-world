@@ -1,7 +1,7 @@
 (* ETH Oberon, Copyright 2001 ETH Zuerich Institut fuer Computersysteme, ETH Zentrum, CH-8092 Zuerich.
 Refer to the "General ETH Oberon System Source License" contract available at: http://www.oberon.ethz.ch/ *)
 
-MODULE Mail IN Oberon; (** portable *)	(* ejz,  *)
+MODULE Mail IN Oberon; (** portable *)	(* ejz,  *) (* *)
 	IMPORT SYSTEM, Kernel, Files, Strings, Dates, Objects, Display, Fonts, Texts, Oberon, NetSystem, NetTools, MIME,
 		Streams, TextStreams, Display3, Attributes, Links, Gadgets, ListRiders, ListGadgets, AsciiCoder, TextGadgets, TextDocs, Documents, 
 		Desktops, HyperDocs, MD5 IN A2, Modules, FileDir, Out;
